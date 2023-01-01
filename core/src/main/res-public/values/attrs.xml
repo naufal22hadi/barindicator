@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BarIndicator">
+        <attr name="activeColor" format="reference|color"/>
+        <attr name="inactiveColor" format="reference|color"/>
+        <attr name="indicatorCornerRadius" format="integer|dimension"/>
+        <attr name="barHeight" format="dimension"/>
+        <attr name="barSpacing" format="dimension"/>
+        <attr name="barBackgroundActive" format="reference"/>
+        <attr name="barBackgroundInactive" format="reference"/>
+        <attr name="isBarClickable" format="boolean"/>
+    </declare-styleable>
+</resources>
